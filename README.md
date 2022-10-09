@@ -12,3 +12,7 @@ The task was to refactor the original code and make sure it followed accessibili
 # What did I learn?
 Using this challenge, I learned what refactoring is, the importance of making sure websites can be used by everyone, and that the better your code/website the higher the chance of your webpage being one of the firsts to show up on a search engine.
 
+https://z404c.github.io/refactor-challenge/
+
+![image](https://user-images.githubusercontent.com/112136706/194768709-9eb35d6a-15f2-49b2-8ee3-5b597d85bac7.png)
+
