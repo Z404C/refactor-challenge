@@ -1,56 +1,66 @@
+/*universal selector. influences entire page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Influences page by giving it color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Very top of page. Anything in it will receive what has been put in this class*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/*selector name is h1 representing Horiseon. */
+.h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/*seo selector name has been shortened. */
+#seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*where links sit in the header and the look*/
+.links-position {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
+/*listing style of links*/
+.ul-style {
+    list-style-type:none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+/*Links are inline instead of on top of each other*/
+.inline-links{
+    display: inline;
+    margin-left: 11px;
+    margin-bottom:20px ;
+    position:relative;
+    bottom: 57px;
 
+}
+/*appearance of links on webpage*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*appearance of paragraph text*/
 p {
     font-size: 16px;
 }
 
-.hero {
+/*Gave class name something easier to identify*/
+.bg-img{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/*Used for the images in the explaination portion*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Used for the images in the explaination portion*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* For section class content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*The setup of the right side of the page for the benefits portion*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +100,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*For the title of each benefit description*/
+.benefit-headings{
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*The benefit descriptions*/
+.benefit-text{
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*The icons under each benefit description*/
+.benefit-icons{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*The look of the explaination portions*/
+.explaination{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +129,24 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*The size of the images in the explaination portions*/
+.explaination-img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*The headings of each explaination*/
+.explaination-heading{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*very bottom of the page with the copyright*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+
